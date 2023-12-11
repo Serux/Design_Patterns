@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{A26F943B-A2AD-4499-A7E8-5AF358285A6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{F4063C73-D062-4576-B3A1-59C85B8E40B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{A26F943B-A2AD-4499-A7E8-5AF358285A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A26F943B-A2AD-4499-A7E8-5AF358285A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A26F943B-A2AD-4499-A7E8-5AF358285A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4063C73-D062-4576-B3A1-59C85B8E40B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4063C73-D062-4576-B3A1-59C85B8E40B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4063C73-D062-4576-B3A1-59C85B8E40B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4063C73-D062-4576-B3A1-59C85B8E40B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
