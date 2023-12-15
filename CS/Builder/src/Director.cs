@@ -22,12 +22,12 @@ namespace Builder.src
         public void make(HouseBuilderTypes types)
         {
             
-            this.builder.buildDoors();
-            this.builder.buildWalls();
+            this.builder?.buildDoors();
+            this.builder?.buildWalls();
             if (!types.Equals(HouseBuilderTypes.WithoutRoof) )
-                this.builder.buildRoof();
+                this.builder?.buildRoof();
             if (!types.Equals(HouseBuilderTypes.WithoutWindows) )
-                this.builder.buildWindows();
+                this.builder?.buildWindows();
         }
     }
 }
