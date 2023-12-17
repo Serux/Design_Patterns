@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Abstract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{4A77F108-623B-4739-8FEE-CBC9D5EC96CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{B9CAC256-5E9F-4039-BFC0-93025ED313F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{4A77F108-623B-4739-8FEE-CBC9D5EC96CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A77F108-623B-4739-8FEE-CBC9D5EC96CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A77F108-623B-4739-8FEE-CBC9D5EC96CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CAC256-5E9F-4039-BFC0-93025ED313F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CAC256-5E9F-4039-BFC0-93025ED313F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CAC256-5E9F-4039-BFC0-93025ED313F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CAC256-5E9F-4039-BFC0-93025ED313F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
